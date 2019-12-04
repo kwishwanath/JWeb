@@ -50,7 +50,8 @@ public class Home extends HttpServlet {
             out.println("<h2>Version Changed..</h2>");
             out.println("<br />");
             out.println("<h2>Your HOME PATH is: "+System.getenv("DOCKER_HOME")+"</h2>");
-                                               
+                                             
+            
              for(String civ:list){
             
              out.println("<h3>"+civ+"</h3>");
