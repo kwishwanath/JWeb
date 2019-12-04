@@ -46,7 +46,7 @@ public class Home extends HttpServlet {
             out.println("<title>Docker Home</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>Welcome to Docker...!</h1>");
+            out.println("<h1>Welcome to Docker...!!!</h1>");
             out.println("<br />");
             out.println("<h2>Your HOME PATH is: "+System.getenv("DOCKER_HOME")+"</h2>");
             
