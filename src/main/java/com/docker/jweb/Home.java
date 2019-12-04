@@ -52,6 +52,7 @@ public class Home extends HttpServlet {
             
             
             
+            
              for(String civ:list){
             
              out.println("<h3>"+civ+"</h3>");
